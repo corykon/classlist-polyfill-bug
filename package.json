@@ -1,0 +1,8 @@
+{
+  "name": "classlist-polyfill-bug",
+  "version": "1.0.0",
+  "scripts": {},
+  "dependencies": {
+    "classlist.js": "^1.1.20150312"
+  }
+}

@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <style>
+      .warning-text {
+        color: red;
+      }
+    </style>
+    <script src="./node_modules/classList.js" type="text/javascript"></script>
+    <script>
+        window["toggleClassWithForce"] = function() {
+        var header = document.getElementById("testHeader");
+        header.classList.toggle("warning-text", false);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <h1 id="testHeader">Testing classlist.toggle()</h1>
+      <button onclick="toggleClassWithForce()">classlist.toggle()</button>
+    </div>
+  </body>
+</html>
